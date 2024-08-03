@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
-=======
->>>>>>> 5d89d9922ef82d8cf727f50e2cd32e0f20891e35
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -15,8 +12,5 @@
     background-color: pink;
     flex: 1 1 auto;
     width: 25%;
-<<<<<<< HEAD
     border: solid black;
-=======
->>>>>>> 5d89d9922ef82d8cf727f50e2cd32e0f20891e35
 }
