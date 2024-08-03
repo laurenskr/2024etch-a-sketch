@@ -11,3 +11,9 @@ for (let i = 1; i <= (gridSize ** 2); i++) {
     cell.style.width = `${100/gridSize}%`;
     container.appendChild(cell);
 }
+
+let cells = document.querySelectorAll(".cell");
+
+cells.forEach((cell) => {
+    cell.addEventListener("mouseover", () => {cell.style.backgroundColor = "blue";})
+});
